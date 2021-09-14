@@ -1,0 +1,78 @@
+/* CSS nuotrauka */
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+
+/* Heading1 ir paragrafas su paboldintais skirtukais*/
+h1 {
+    text-align: center;
+}
+
+.paragraph {
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    max-width: 90%;
+}
+
+hr.solid {
+    border-top: 1.5px solid rgb(0, 0, 0);
+  }
+
+.upper_hr {
+    margin-bottom: 0;
+}
+
+.lower_hr {
+    margin-top: 0;
+}
+
+
+/* Melyni skyreliai */
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.all_blue_containers {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.blue_container {
+    background-color: #add8e6;
+    margin: 10px 2.5px 10px 2.5px;
+}
+
+p.p_bold {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+/* Footer'is */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* MOBILUS dizainas*/
+  @media only screen and (max-width: 800px) {
+      .all_blue_containers {
+          display: flex;
+          flex-direction: column;
+      }
+  }
